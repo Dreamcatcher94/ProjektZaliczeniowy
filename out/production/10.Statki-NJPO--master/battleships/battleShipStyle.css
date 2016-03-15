@@ -1,0 +1,36 @@
+
+.root {
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+    -fx-base: #181818;
+}
+
+.label {
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+
+.button {
+    -fx-base: #B8B8B8;
+	-fx-text-fill: #F8F8F8;
+	-fx-background-insets: 0,1,1,0.9,15;
+	-fx-background-radius: 0,1,1,1,15;
+
+}
+
+.split-pane *.split-pane-divider {
+    -fx-border-color:  transparent;
+   -fx-background-color: transparent;
+}
+
+.split-pane {
+	-fx-border-color:  transparent;
+   -fx-background-color: transparent;
+   -fx-background-insets: 0;
+}
+
